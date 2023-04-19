@@ -1,0 +1,48 @@
+.addTask form {
+    display: flex;
+    align-items: center;
+    gap: 0 .5rem;
+    width: 100%;
+}
+
+.addTask input {
+    flex: 1;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--gray-100);
+}
+
+.addTask input::placeholder {
+    color: var(--gray-300);
+}
+
+.addTask input:focus {
+    border-color: var(--purple-600);
+    outline: none;
+}
+
+.addTask button {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: .875rem;
+    border-radius: 8px;
+    padding: 1rem 1.125rem;
+    gap: 0 .5rem;
+    background: var(--blue-600);
+    color: var(--gray-100);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+.addTask button:not(:disabled):hover, .addTask button:focus {
+    background: var(--blue-500);
+}
+
+.addTask button:disabled {
+    opacity: .7;
+}
