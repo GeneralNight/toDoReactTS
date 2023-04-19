@@ -1,0 +1,23 @@
+.withoutTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem 0;
+    padding: 4rem 0;
+    border-top: 1px solid var(--gray-400);
+    margin-top: 1.5rem;
+}
+
+.withoutTask svg {
+    color: var(--gray-300);
+}
+
+.withoutTask p {
+    color: var(--gray-300);
+    line-height: 1.6;
+}
+
+.withoutTask strong {
+    display: block;
+}
