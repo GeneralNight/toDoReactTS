@@ -1,0 +1,31 @@
+.tasksStats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.0625rem;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    gap: 0 .5rem;
+    font-weight: 700;
+    font-size: .875rem;
+}
+
+.stats:first-child p {
+    color: var(--blue-500);
+    
+}
+
+.stats:last-child p {
+    color: var(--purple-500);   
+}
+
+.stats span {
+    color: var(--gray-200);
+    background: var(--gray-400);
+    border-radius: 999px;
+    padding: 2px .5rem;
+    font-size: .75rem;
+}
