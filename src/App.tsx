@@ -8,7 +8,7 @@ import { WithoutTasks } from "./components/WithoutTasks"
 import { Task, TasksList } from "./components/TasksList"
 import { useState } from "react"
 
-function App() {
+export function App() {
 
   const [tasks, setTasks] = useState<Task[]>([
     {id:1,done: false, content: "Estudar React"},
@@ -61,5 +61,3 @@ function App() {
     </div>
   )
 }
-
-export default App
